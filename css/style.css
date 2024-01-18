@@ -45,7 +45,7 @@ a:focus {
 .back-to-top {
     position: fixed;
     display: none;
-    background: #fdbe33;
+    background: rgb(183 136 94);
     color: #121518;
     width: 44px;
     height: 44px;
@@ -78,7 +78,14 @@ a:focus {
 .top-bar {
     position: relative;
     height: 90px;
-    background: #fdbe33;
+    /* background: #fdbe33; */
+
+    padding-top: 5.2rem;
+    background: #2e4b59 url(../img/bg.webp) 50%;
+    background-size: 25%;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+    /* height: 16rem; */
 }
 
 .top-bar .logo {
@@ -115,7 +122,7 @@ a:focus {
 
 .top-bar .top-bar-icon [class^="flaticon-"]::before {
     margin: 0;
-    color: #030f27;
+    color: #b7875e;
     font-size: 40px;
 }
 
@@ -125,14 +132,14 @@ a:focus {
 
 .top-bar .top-bar-text h3 {
     margin: 0 0 5px 0;
-    color: #030f27;
+    color: #fff;
     font-size: 16px;
     font-weight: 400;
 }
 
 .top-bar .top-bar-text p {
     margin: 0;
-    color: #030f27;
+    color: #fff;
     font-size: 13px;
     font-weight: 400;
 }
@@ -155,7 +162,7 @@ a:focus {
 /**********************************/
 .nav-bar {
     position: relative;
-    background: #fdbe33;
+    background: #2e4b59 url(../img/bg.webp) 50%;
     transition: .3s;
 }
 
@@ -174,7 +181,7 @@ a:focus {
 
 .nav-bar .navbar {
     height: 100%;
-    background: #030f27 !important;
+    background: #1a2b34 !important;
 }
 
 .navbar-dark .navbar-nav .nav-link,
@@ -220,7 +227,7 @@ a:focus {
     }
     
     .nav-bar .navbar {
-        padding: 20px;
+        padding: 10px;
     }
     
     .nav-bar .navbar-brand {
@@ -259,7 +266,7 @@ a:focus {
 .carousel {
     position: relative;
     width: 100%;
-    height: calc(100vh - 170px);
+    height: 400px;
     min-height: 400px;
     margin: 0 auto;
     text-align: center;
@@ -298,8 +305,20 @@ a:focus {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: calc(100vh - 170px);
+    /* height: calc(100vh - 170px);
+    min-height: 400px; */
+    height: 400px;
     min-height: 400px;
+}
+.site-wide-banner-x {
+    /* background: url(https://images.guns.com/prod/2023/03/23/641ca18….png) no-repeat; */
+    height: 45px;
+    
+    width: 100%;
+    background-color: #b7875e;
+
+    background: url('https://images.guns.com/prod/2023/03/23/641ca18c220b6cd25e798d06d8616ed696739b7ab9c3f.png') no-repeat;
+    background-size: cover;
 }
 
 .carousel .carousel-caption p {
@@ -472,7 +491,7 @@ a:focus {
 }
 
 .section-header p {
-    color: #fdbe33;
+    color: rgb(183 136 94);
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 5px;
@@ -724,16 +743,21 @@ a:focus {
     width: 100%;
     text-align: center;
     margin-bottom: 30px;
+    height: 500px;
+    /* max-height: 200px; */
 }
 
 .service .service-img {
     position: relative;
     overflow: hidden;
     background: #000000;
+    
+    height: 100%;
 }
 
 .service .service-img img {
     width: 100%;
+    height: 100%;
 }
 
 .service .service-overlay {
@@ -764,7 +788,7 @@ a:focus {
     display: flex;
     align-items: center;
     height: 60px;
-    background: #030f27;
+    background: #2f4d59;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -776,7 +800,7 @@ a:focus {
     width: calc(100% - 60px);
     font-size: 20px;
     font-weight: 700;
-    color: #fdbe33;
+    color: #fff;
     text-align: left;
     overflow: hidden;
     white-space: nowrap;
@@ -793,8 +817,8 @@ a:focus {
     font-size: 60px;
     line-height: 60px;
     font-weight: 100;
-    color: #030f27;
-    background: #fdbe33;
+    color: #304e59;
+    background: #b7875e;
     border-radius: 0;
     transition: .3s;
 }
@@ -2059,7 +2083,7 @@ a:focus {
     position: relative;
     margin-top: 45px;
     padding-top: 90px;
-    background: #030f27;
+    background: #1b2b34;
     color: #ffffff;
 }
 
@@ -2076,7 +2100,7 @@ a:focus {
     padding-bottom: 10px;
     font-size: 20px;
     font-weight: 600;
-    color: #fdbe33;
+    color: rgb(183 136 94);
 }
 
 .footer h2::after {
@@ -2086,7 +2110,7 @@ a:focus {
     height: 2px;
     left: 0;
     bottom: 0;
-    background: #fdbe33;
+    background: #b7885e;
 }
 
 .footer .footer-link a {
@@ -2218,7 +2242,7 @@ a:focus {
 }
 
 .footer .copyright p a {
-    color: #fdbe33;
+    color: rgb(183 136 94);
     font-weight: 500;
     letter-spacing: 1px;
 }
@@ -2233,4 +2257,7 @@ a:focus {
         margin: 5px 0;
         text-align: center;
     }
+}
+.mh-nav-bar a {
+    font-weight: 800;
 }
