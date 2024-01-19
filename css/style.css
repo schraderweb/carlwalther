@@ -217,6 +217,18 @@ a:focus {
     border-color: #fdbe33;
 }
 
+.product-item .btn {
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 0;
+    background-color: #b7895e;
+}
+.product-item .btn:hover {
+    color: #fff;
+    background: #324f61;
+    /* border-color: #fdbe33; */
+}
+
 @media (min-width: 992px) {
     .nav-bar {
         padding: 0 75px;
@@ -266,7 +278,7 @@ a:focus {
 .carousel {
     position: relative;
     width: 100%;
-    height: 550px;
+    height: 650px;
     min-height: 550px;
     margin: 0 auto;
     text-align: center;
