@@ -266,8 +266,8 @@ a:focus {
 .carousel {
     position: relative;
     width: 100%;
-    height: 400px;
-    min-height: 400px;
+    height: 550px;
+    min-height: 550px;
     margin: 0 auto;
     text-align: center;
     overflow: hidden;
@@ -315,10 +315,12 @@ a:focus {
     height: 45px;
     
     width: 100%;
-    background-color: #b7875e;
+    /* background-color: #b7875e; */
 
-    background: url('https://images.guns.com/prod/2023/03/23/641ca18c220b6cd25e798d06d8616ed696739b7ab9c3f.png') no-repeat;
-    background-size: cover;
+    /* background: url('https://images.guns.com/prod/2023/03/23/641ca18c220b6cd25e798d06d8616ed696739b7ab9c3f.png') no-repeat; */
+    /* background-image: url(http://127.0.0.1:5500/img/banner-ad.png) ; */
+    
+    background-size: cover !important;
 }
 
 .carousel .carousel-caption p {
@@ -742,7 +744,8 @@ a:focus {
     position: relative;
     width: 100%;
     text-align: center;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
+    margin-bottom: 95px;
     height: 500px;
     /* max-height: 200px; */
 }
@@ -2260,4 +2263,9 @@ a:focus {
 }
 .mh-nav-bar a {
     font-weight: 800;
+}
+
+
+.fluid-copyright {
+    background-color: #000000;
 }
