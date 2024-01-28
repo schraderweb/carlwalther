@@ -16,7 +16,7 @@ description: WALTHER - Earl's Repair Service, Inc.
                         <div class="carousel-caption">
                             <p class="animated fadeInRight">Walther - Earl's Repair Service, Inc</p>
                             <h1 class="animated fadeInLeft">Pistols, Rifles, Spare Parts, and Accessories ...</h1>
-                            <a class="btn animated fadeInUp" href="#">ALL PRODUCTS</a>
+                            <a class="btn animated fadeInUp" href="#all-products">ALL PRODUCTS</a>
                         </div>
                     </div>
 
@@ -74,154 +74,28 @@ description: WALTHER - Earl's Repair Service, Inc.
                     <div class="section-header text-center">
                         <h1>Walther Products</h1> 
                         <h2>Browse Our Products Online</h2>
-                    </div>
-                    <div class="row">
+                    </div> 
+                    <div class="row" id="all-products"> 
+                       
+                        {% for data in data.categories %}
                         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="service-item">
                                 <div class="service-img">
-                                    <img src="img/pdp-pistol.jpeg" alt="Image">
+                                    <img src="{{data.imgUrl}}" alt="Image">
                                     <div class="service-overlay">
                                         <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem.
+                                            {{data.description}}    
                                         </p>
                                     </div>
                                 </div>
                                 <div class="service-text">
-                                    <h3>Pistols</h3>
-                                    <a class="btn" href="products">+</a>
+                                    <h3>{{data.category}}</h3>
+                                    <a class="btn" href="/categories/{{data.slug}}">+</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-                            <div class="service-item">
-                                <div class="service-img">
-                                    <img src="img/walther-walther-cp88-cal-45-mm-177-pellet-black-product-sku-4160000.webp" alt="Image">
-                                    <div class="service-overlay">
-                                        <p>
-                                            The “Patriot” limited edition elegantly fuses the rich patriotic history
-of the United States with the unyielding performance of the Q5 Steel
-Frame. The distinctive engraving on this iconic pistol is immediately
-recognizable as an uncompromising embodiment of accomplishment and
-a passion for quality.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="service-text">
-                                    <h3>CO2 Pistol</h3>
-                                    <a class="btn" href="#" data-lightbox="service">+</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-                            <div class="service-item">
-                                <div class="service-img">
-                                    <img src="img/walther-reign-uxt-22-cal-pcp-bullpup.jpeg" alt="Image">
-                                    <div class="service-overlay">
-                                        <p>
-                                            The “Patriot” limited edition elegantly fuses the rich patriotic history
-of the United States with the unyielding performance of the Q5 Steel
-Frame. The distinctive engraving on this iconic pistol is immediately
-recognizable as an uncompromising embodiment of accomplishment and
-a passion for quality.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="service-text">
-                                    <h3>CO2 Pistol & Rifle Parts</h3>
-                                    <a class="btn" href="#" data-lightbox="service">+</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-                            <div class="service-item">
-                                <div class="service-img">
-                                    <img src="img/Walther_GSP.jpg" alt="Image">
-                                    <div class="service-overlay">
-                                        <p>
-                                            The “Patriot” limited edition elegantly fuses the rich patriotic history
-of the United States with the unyielding performance of the Q5 Steel
-Frame. The distinctive engraving on this iconic pistol is immediately
-recognizable as an uncompromising embodiment of accomplishment and
-a passion for quality.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="service-text">
-                                    <h3>GSP Rifle</h3>
-                                    <a class="btn" href="#" data-lightbox="service">+</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                            <div class="service-item">
-                                <div class="service-img">
-                                    <img src="img/holster-walther.jpeg" alt="Image">
-                                    <div class="service-overlay">
-                                        <p>
-                                            The “Arabesque” is a one off, uniquely customised Q5 Steel Frame that
-                                            takes the design idiom to a level not realized on production pistols
-                                            before. With embellishments usually reserved for the best sporting
-                                            shotgun and rifles, this is the perfect fusion of form and function
-                                            combining sensuality and pure clarity, truly enhancing excellence.</p>
-                                    </div>
-                                </div>
-                                <div class="service-text">
-                                    <h3>Holsters & Accessories</h3>
-                                    <a class="btn" href="img/service-3.jpg" data-lightbox="service">+</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="service-item">
-                                <div class="service-img">
-                                    <img src="img/a_truck3.jpg" alt="Image">
-                                    <div class="service-overlay">
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="service-text">
-                                    <h3>Collectables</h3>
-                                    <a class="btn" href="img/service-1.jpg" data-lightbox="service">+</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                            <div class="service-item">
-                                <div class="service-img">
-                                    <img src="img/k_tac_1.jpg" alt="Image">
-                                    <div class="service-overlay">
-                                        <p>
-                                            The “Arabesque” is a one off, uniquely customised Q5 Steel Frame that
-                                            takes the design idiom to a level not realized on production pistols
-                                            before. With embellishments usually reserved for the best sporting
-                                            shotgun and rifles, this is the perfect fusion of form and function
-                                            combining sensuality and pure clarity, truly enhancing excellence.</p>
-                                    </div>
-                                </div>
-                                <div class="service-text">
-                                    <h3>Walther Knives</h3>
-                                    <a class="btn" href="img/service-3.jpg" data-lightbox="service">+</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="service-item">
-                                <div class="service-img">
-                                    <img src="img/walther-line-art.jpeg" alt="Image">
-                                    <div class="service-overlay">
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="service-text">
-                                    <h3>Walther Line Art</h3>
-                                    <a class="btn" href="img/service-1.jpg" data-lightbox="service">+</a>
-                                </div>
-                            </div>
-                        </div>
+                        {% endfor %}
+      
 
                        
                     </div>

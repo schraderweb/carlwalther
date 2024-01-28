@@ -1,0 +1,149 @@
+{
+    "categories":[{
+        "category": "Pistols",
+        "slug":"pistols",
+        "description": "lalalalal",
+        "imgUrl":"img/pdp-pistol.jpeg",
+        "subCategories": [{
+            "name": "Walther Master Manufacture Pistols",
+            "imgUrl":"/img/guns/pis-master.png",
+            "slug":"wmmp-products",
+            "id": 1
+          }, {
+            "name": "Competition Pistols",
+            "imgUrl" :"/img/compi.png",
+            "slug":"wcp-products",
+            "id": 2
+          }, {
+            "name": "Service Pistols",
+            "imgUrl":"/img/walther_service_pistols.jpeg",
+            "slug":"wsp-products",
+            "id": 3
+          }]
+      },{
+        "category": "CO2 Pistol",
+        "slug":"co2-pistols",
+        "description": "lalalalaloo",
+        "imgUrl":"img/walther-walther-cp88-cal-45-mm-177-pellet-black-product-sku-4160000.webp",
+        "subCategories": [{
+            "name": "Walther CP88",
+            "imgUrl":"/img/cp8806.gif",
+            "slug":"w-cp88",
+            "id": 1
+          }, {
+            "name": "Walther CP99 & PPK/S",
+            "slug":"w-cp99-ppks",
+            "imgUrl":"/img/5_8315.jpg",
+            "id": 2
+          }]
+      },{
+        "category": "Rifles",
+        "slug":"rifles",
+        "description": "lalalalaloo",
+        "imgUrl":"img/walther-reign-uxt-22-cal-pcp-bullpup.jpeg",
+        "subCategories": [{
+            "name": "Walther Hunting Rifles",
+            "imgUrl" :"/img/compi.png",
+            "slug":"whr-products",
+            "id": 1
+          }, {
+            "name": "Walther Precision Rifles",
+            "imgUrl" :"/img/compi.png",
+            "slug":"wpr-products",
+            "id": 2
+          }, {
+            "name": "Walther Target Rifles",
+            "imgUrl" :"/img/compi.png",
+            "slug":"wtr-products",
+            "id": 3
+          }]
+      },{
+        "category": "CO2 Pistol & Rifle Parts",
+        "slug":"co2-pistols-and-rifle-parts",
+        "description": "lalalalaloo",
+        "imgUrl":"img/walther-reign-uxt-22-cal-pcp-bullpup.jpeg",
+        "subCategories": [{
+            "name": "Exploded Views for CO2 Competition Pistol Parts",
+            "slug":"exv-co2-cp-parts-products",
+            "id": 1
+          }, {
+            "name": "Exploded Views for CO2 Competition Rifle Parts",
+            "slug":"exv-co2-cp-rifle-parts-products",
+            "id": 2
+          }]
+      },{
+        "category": "GSP Rifle",
+        "slug":"gsp-rifle",
+        "description": "lalalalaloo",
+        "imgUrl":"img/Walther_GSP.jpg",
+        "subCategories": [{
+            "name": "Walther Master Manufacture CO2 Pistol",
+            "id": 1
+          }, {
+            "name": "Competition CO2 Pistol",
+            "id": 2
+          }, {
+            "name": "Service CO2 Pistol",
+            "id": 3
+          }]
+      },{
+        "category": "Holsters & Accessories",
+        "slug":"holster-and-accessories",
+        "description": "lalalalaloo",
+        "imgUrl":"img/holster-walther.jpeg",
+        "subCategories": [{
+            "name": "Walther Holsters",
+            "slug":"holsters",
+            "id": 1
+          }, {
+            "name": "Walther Fan Shop",
+            "slug":"w-fan-shop",
+            "id": 2
+          }, {
+            "name": "Walther Apparel",
+            "slug": "w-apparel",
+            "id": 3
+          }, {
+            "name": "Walther Accessories",
+            "slug": "w-accessories",
+            "id": 3
+          }, {
+            "name": "Walther Pistol Grips",
+            "slug": "w-pistol-grips",
+            "id": 3
+          }]
+      },{
+        "category": "Collectables",
+        "slug":"collectables",
+        "description": "lalalalaloo",
+        "imgUrl":"img/a_truck3.jpg",
+        "subCategories": [{
+            "name": "Walther Master Manufacture CO2 Pistol",
+            "id": 1
+          }]
+      },{
+        "category": "Walther Knives",
+        "slug":"walther-knives",
+        "description": "lalalalaloo",
+        "imgUrl":"img/k_tac_1.jpg",
+        "subCategories": [{
+            "name": "Walther Master Manufacture CO2 Pistol",
+            "id": 1
+          }]
+      },{
+        "category": "Walther Line Art",
+        "slug":"walther-line-art",
+        "description": "lalalalaloo",
+        "imgUrl":"img/walther-line-art.jpeg",
+        "subCategories": [{
+            "name": "Walther Master Manufacture CO2 Pistol",
+            "id": 1
+          }, {
+            "name": "Competition CO2 Pistol",
+            "id": 2
+          }, {
+            "name": "Service CO2 Pistol",
+            "id": 3
+          }]
+      }]
+}

@@ -1,0 +1,41 @@
+---
+layout: layouts/base.html
+title: WALTHER Products- Earl's Repair Service, Inc.
+description: WALTHER - Earl's Repair Service, Inc.
+---
+
+
+<!-- Products Start -->
+<div class="service products">
+    <div class="container">
+       
+        
+        
+            
+      
+            {% for data in data.categories | pluck("pistols") %}
+            <div class="section-header text-center p-4">
+                <h1 class="text-main">{{data.category}}</h1> 
+                <!-- <p>A modified P 88 Compact for the marksman.Proven technology, outstanding shooting performance,  cleanly adjustable single action trigger, manually operated safety only.</p> -->
+            </div>
+            <div class="row">
+                {% for subs in data.subCategories %}
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item">
+                        <div class="service-img">
+                            <img src="{{subs.imgUrl}}" alt="Image">
+                        </div>
+                        <div class="service-text">
+                            <h3>{{subs.name}}</h3>
+                            <a class="btn" href="/products/{{subs.slug}}" >+</a> 
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            {% endfor %}
+                     
+        </div>
+    </div>
+</div>
+<!-- Products End -->
