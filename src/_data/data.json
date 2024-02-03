@@ -2,7 +2,7 @@
     "categories":[{
         "category": "Pistols",
         "slug":"pistols",
-        "description": "lalalalal",
+        "description": "click to view",
         "imgUrl":"img/pdp-pistol.jpeg",
         "subCategories": [{
             "name": "Walther Master Manufacture Pistols",
@@ -23,7 +23,7 @@
       },{
         "category": "CO2 Pistol",
         "slug":"co2-pistols",
-        "description": "lalalalaloo",
+        "description": "click to view",
         "imgUrl":"img/walther-walther-cp88-cal-45-mm-177-pellet-black-product-sku-4160000.webp",
         "subCategories": [{
             "name": "Walther CP88",
@@ -39,7 +39,7 @@
       },{
         "category": "Rifles",
         "slug":"rifles",
-        "description": "lalalalaloo",
+        "description": "click to view",
         "imgUrl":"img/walther-reign-uxt-22-cal-pcp-bullpup.jpeg",
         "subCategories": [{
             "name": "Walther Hunting Rifles",
@@ -60,7 +60,7 @@
       },{
         "category": "CO2 Pistol & Rifle Parts",
         "slug":"co2-pistols-and-rifle-parts",
-        "description": "lalalalaloo",
+        "description": "click to view",
         "imgUrl":"img/walther-reign-uxt-22-cal-pcp-bullpup.jpeg",
         "subCategories": [{
             "name": "Exploded Views for CO2 Competition Pistol Parts",
@@ -74,7 +74,7 @@
       },{
         "category": "GSP Rifle",
         "slug":"gsp-rifle",
-        "description": "lalalalaloo",
+        "description": "click to view",
         "imgUrl":"img/Walther_GSP.jpg",
         "subCategories": [{
             "name": "Walther Master Manufacture CO2 Pistol",
@@ -89,7 +89,7 @@
       },{
         "category": "Holsters & Accessories",
         "slug":"holster-and-accessories",
-        "description": "lalalalaloo",
+        "description": "click to view",
         "imgUrl":"img/holster-walther.jpeg",
         "subCategories": [{
             "name": "Walther Holsters",
@@ -115,7 +115,7 @@
       },{
         "category": "Collectables",
         "slug":"collectables",
-        "description": "lalalalaloo",
+        "description": "click to view",
         "imgUrl":"img/a_truck3.jpg",
         "subCategories": [{
             "name": "Walther Master Manufacture CO2 Pistol",
@@ -124,7 +124,7 @@
       },{
         "category": "Walther Knives",
         "slug":"walther-knives",
-        "description": "lalalalaloo",
+        "description": "click to view",
         "imgUrl":"img/k_tac_1.jpg",
         "subCategories": [{
             "name": "Walther Master Manufacture CO2 Pistol",
@@ -133,8 +133,23 @@
       },{
         "category": "Walther Line Art",
         "slug":"walther-line-art",
-        "description": "lalalalaloo",
+        "description": "click to view",
         "imgUrl":"img/walther-line-art.jpeg",
+        "subCategories": [{
+            "name": "Walther Master Manufacture CO2 Pistol",
+            "id": 1
+          }, {
+            "name": "Competition CO2 Pistol",
+            "id": 2
+          }, {
+            "name": "Service CO2 Pistol",
+            "id": 3
+          }]
+      },{
+        "category": "Walther Books",
+        "slug":"walther-books",
+        "description": "click to view",
+        "imgUrl":"img/books/2793954_1.jpg",
         "subCategories": [{
             "name": "Walther Master Manufacture CO2 Pistol",
             "id": 1
