@@ -3,8 +3,16 @@ layout: layouts/base.html
 title: WALTHER Products- Earl's Repair Service, Inc.
 description: WALTHER - Earl's Repair Service, Inc.
 ---
-
-
+{% for data in data.categories | pluck("co2-pistols-and-rifle-parts") %}
+<!-- Breadcrumb -->
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="/">Home</a></li>
+      <!-- <li class="breadcrumb-item"><a href="#">Library</a></li> -->
+      <li class="breadcrumb-item active" aria-current="page">{{data.category}}</li>
+    </ol>
+  </nav>
+  {% endfor %}
 <!-- Products Start -->
 <div class="service products">
     <div class="container">
@@ -23,7 +31,7 @@ description: WALTHER - Earl's Repair Service, Inc.
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item">
                         <div class="service-img">
-                            <img src="/img/walther-box-logo.webp" alt="Image">
+                            <img src="{{subs.img}}" alt="Image">
                         </div>
                         <div class="service-text">
                             <h3>{{subs.name}}</h3>

@@ -81,14 +81,9 @@
                                 <div class="nav-item dropdown">
                                     <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Products</a>
                                     <div class="dropdown-menu">
-                                        <a href="#" class="dropdown-item">Pistols</a>
-                                        <a href="#" class="dropdown-item">CO2 Pistol</a>
-                                        <a href="#" class="dropdown-item">CO2 Pistol & Rifle Parts</a>
-                                        <a href="#" class="dropdown-item">GSP Rifle</a>
-                                        <a href="#" class="dropdown-item">Holsters & Accessories</a>
-                                        <a href="#" class="dropdown-item">Collectables</a>
-                                        <a href="#" class="dropdown-item">Walther Knives</a>
-                                        <a href="#" class="dropdown-item">Walther Line Art</a>
+                                        {% for data in data.categories %}
+                                        <a href="/categories/{{data.slug}}" class="dropdown-item">{{data.category}}</a>
+                                        {% endfor %}
                                     </div>
                                 </div>
                                 <a href="contact.html" class="nav-item nav-link">Contact us</a>

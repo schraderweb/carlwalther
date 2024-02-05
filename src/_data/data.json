@@ -64,11 +64,13 @@
         "imgUrl":"img/walther-reign-uxt-22-cal-pcp-bullpup.jpeg",
         "subCategories": [{
             "name": "Exploded Views for CO2 Competition Pistol Parts",
+            "img" : "/img/exvco2cpp/ev_cp3_match.jpg",
             "slug":"exv-co2-cp-parts-products",
             "id": 1
           }, {
             "name": "Exploded Views for CO2 Competition Rifle Parts",
             "slug":"exv-co2-cp-rifle-parts-products",
+            "img" : "/img/exvco2crp/ev_cg90-2.jpg",
             "id": 2
           }]
       },{
@@ -94,21 +96,26 @@
         "subCategories": [{
             "name": "Walther Holsters",
             "slug":"holsters",
+            "img" : "/img/holsters/h_100_a.jpg",
             "id": 1
           }, {
             "name": "Walther Fan Shop",
             "slug":"w-fan-shop",
+            "img" : "/img/wfs/a_walther_bag_2768810.jpg",
             "id": 2
           }, {
             "name": "Walther Apparel",
+            "img" : "/img/wapparels/a_rucksack_gross_58002.jpg",
             "slug": "w-apparel",
             "id": 3
           }, {
             "name": "Walther Accessories",
+            "img" : "/img/waccessories/a_gsp_case_plas.jpg",
             "slug": "w-accessories",
             "id": 3
           }, {
             "name": "Walther Pistol Grips",
+            "img" : "/img/grips/g_pp_black.jpg",
             "slug": "w-pistol-grips",
             "id": 3
           }]
