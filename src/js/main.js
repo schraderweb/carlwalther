@@ -65,5 +65,6 @@
     // $('body').on('click', '.service-item', function(e){
     //     e.curr.find('a.btn').trigger( "click" );
     // });
+    document.getElementById("year").innerHTML = new Date().getFullYear();
 })(jQuery);
 
