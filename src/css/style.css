@@ -2398,3 +2398,8 @@ a.product-list-item .product-list-img{
 .fluid-copyright {
     background-color: #000000;
 }
+
+.cog-form__content{padding: 5px;}
+.order-form {
+    background-color: #fff;
+}
