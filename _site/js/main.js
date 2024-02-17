@@ -62,6 +62,12 @@
         window.location.href = ($( el ).find('a.btn').attr('href'));
         // $('.service-item a.btn').trigger( "click" );
     })
+    $('.product-list-text .btn').click((e) => {
+        // const el = e.target.closest('.service-item');
+        // console.log($( el ).find('a.btn').attr('href'));
+        window.location.href = window.location.origin+'/order-form';
+        // $('.service-item a.btn').trigger( "click" );
+    })
     // $('body').on('click', '.service-item', function(e){
     //     e.curr.find('a.btn').trigger( "click" );
     // });
