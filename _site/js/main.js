@@ -72,5 +72,79 @@
     //     e.curr.find('a.btn').trigger( "click" );
     // });
     document.getElementById("year").innerHTML = new Date().getFullYear();
+
+
+    $('.popup-btn1').click((e) => {
+        e.preventDefault();
+        console.log("ok");
+        $('.popup1').toggle()
+        // $('.service-item a.btn').trigger( "click" );
+    })
+    $('.popup-btn2').click((e) => {
+        e.preventDefault();
+        console.log("ok");
+        $('.popup2').toggle()
+        // $('.service-item a.btn').trigger( "click" );
+    })
+    $('.popup-btn3').click((e) => {
+        e.preventDefault();
+        console.log("ok");
+        $('.popup3').toggle()
+        // $('.service-item a.btn').trigger( "click" );
+    })
+    $('.close').click((e) => {
+        e.preventDefault();
+        console.log("ok");
+        $('.popup').hide();
+        // $('.service-item a.btn').trigger( "click" );
+    })
+
+    $('.popup-btn4').click((e) => {
+        e.preventDefault();
+        console.log("ok");
+        $('.popup4').toggle()
+        // $('.service-item a.btn').trigger( "click" );
+    })
+
+
+    $('.popup-btn5').click((e) => {
+        e.preventDefault();
+        console.log("ok");
+        $('.popup5').toggle()
+        // $('.service-item a.btn').trigger( "click" );
+    })
+
+    $('.popup-btn6').click((e) => {
+        e.preventDefault();
+        console.log("ok");
+        $('.popup6').toggle()
+        // $('.service-item a.btn').trigger( "click" );
+    })
+
+
+    $('.popup-btn7').click((e) => {
+        e.preventDefault();
+        console.log("ok");
+        $('.popup7').toggle()
+        // $('.service-item a.btn').trigger( "click" );
+    })
+
+
+    $('.popup-btn8').click((e) => {
+        e.preventDefault();
+        console.log("ok");
+        $('.popup8').toggle()
+        // $('.service-item a.btn').trigger( "click" );
+    })
+
+
+    $('.popup-btn9').click((e) => {
+        e.preventDefault();
+        console.log("ok");
+        $('.popup9').toggle()
+        // $('.service-item a.btn').trigger( "click" );
+    })
+
+
 })(jQuery);
 
