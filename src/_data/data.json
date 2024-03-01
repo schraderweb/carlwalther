@@ -40,7 +40,7 @@
         "category": "Rifles",
         "slug":"rifles",
         "description": "click to view",
-        "imgUrl":"img/walther-reign-uxt-22-cal-pcp-bullpup.jpeg",
+        "imgUrl":"img/fa_sr_wa2000_v1.png",
         "subCategories": [{
             "name": "Walther Hunting Rifles",
             "imgUrl" :"/img/whr/r_kkj.jpg",
@@ -61,7 +61,7 @@
         "category": "CO2 Pistol & Rifle Parts",
         "slug":"co2-pistols-and-rifle-parts",
         "description": "click to view",
-        "imgUrl":"img/walther-reign-uxt-22-cal-pcp-bullpup.jpeg",
+        "imgUrl":"img/exvco2cpp/ev_cp1_1.jpg", 
         "subCategories": [{
             "name": "Exploded Views for CO2 Competition Pistol Parts",
             "img" : "/img/exvco2cpp/ev_cp3_match.jpg",
@@ -77,7 +77,7 @@
         "category": "GSP Rifle",
         "slug":"gsp-rifle",
         "description": "click to view",
-        "imgUrl":"img/Walther_GSP.jpg",
+        "imgUrl":"img/gsp/gspr_br_1.jpg",
         "subCategories": [{
             "name": "Walther Master Manufacture CO2 Pistol",
             "id": 1

@@ -357,6 +357,7 @@ a:focus {
     /* height: calc(100vh - 170px);
     min-height: 400px; */
     height: 400px;
+    height: 100%;
     min-height: 400px;
 }
 .site-wide-banner-x {
