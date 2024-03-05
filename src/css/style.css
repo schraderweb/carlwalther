@@ -67,6 +67,15 @@ a:focus {
     text-decoration: none;
 }
 
+.btn-calc {
+    background-color: #2e4b59;
+    color: #fff;
+    border: none;
+    padding: 5px 15px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
 .btn:focus {
     box-shadow: none;
 }
@@ -2378,6 +2387,32 @@ a.product-list-item .product-list-img{
 
 .footer .copyright p a:hover {
     color: #ffffff;
+}
+.field-input-pd {
+    padding-bottom:20px ;
+}
+
+.fields-group {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.fields {
+    display: flex;
+    gap: 10px;
+}
+.field {
+    width: 50%;
+}
+input , textarea, select{
+    width: 100%;
+}
+.field-full {
+    width: 100%;
+}
+.field-input {
+    display: flex;
+    gap: 10px;
 }
 
 @media (max-width: 768px) {

@@ -145,6 +145,124 @@
         // $('.service-item a.btn').trigger( "click" );
     })
 
+        $('input[name="qty1"]').val(1);
+        $('input[name="qty2"]').val(1);
+        $('input[name="qty3"]').val(1);
+        $('input[name="qty4"]').val(1);
+        $('input[name="qty5"]').val(1);
+        $('input[name="qty6"]').val(1);
+        $('input[name="qty7"]').val(1);
+        $('input[name="qty8"]').val(1);
+        $('input[name="qty9"]').val(1);
+        $('input[name="qty10"]').val(1);
+
+        $('input[name="total1"]').val(0);
+        $('input[name="total2"]').val(0);
+        $('input[name="total3"]').val(0);
+        $('input[name="total4"]').val(0);
+        $('input[name="total5"]').val(0);
+        $('input[name="total6"]').val(0);
+        $('input[name="total7"]').val(0);
+        $('input[name="total8"]').val(0);
+        $('input[name="total9"]').val(0);
+        $('input[name="total10"]').val(0);
+
+        $('input[name="price1"]').val(0);
+        $('input[name="price2"]').val(0);
+        $('input[name="price3"]').val(0);
+        $('input[name="price4"]').val(0);
+        $('input[name="price5"]').val(0);
+        $('input[name="price6"]').val(0);
+        $('input[name="price7"]').val(0);
+        $('input[name="price8"]').val(0);
+        $('input[name="price9"]').val(0);
+        $('input[name="price10"]').val(0);
+
+    // $('input[name="drone"]'). 'input[name="drone"]:checked'
+    let dr = 0;
+    const  calcTotal = () => {
+        let tot = parseFloat($('input[name="total1"]').val())
+        + parseFloat($('input[name="total2"]').val())
+        + parseFloat($('input[name="total3"]').val())
+        + parseFloat($('input[name="total4"]').val())
+        + parseFloat($('input[name="total5"]').val())
+        + parseFloat($('input[name="total6"]').val())
+        + parseFloat($('input[name="total7"]').val())
+        + parseFloat($('input[name="total8"]').val())
+        + parseFloat($('input[name="total9"]').val())
+        + parseFloat($('input[name="total10"]').val());
+        return tot ;
+
+    }
+
+    const calcRowTotal = () => {
+        parseFloat($('input[name="total1"]').val(parseFloat($('input[name="qty1"]').val()) * parseFloat($('input[name="price1"]').val())))
+        parseFloat($('input[name="total2"]').val(parseFloat($('input[name="qty2"]').val()) * parseFloat($('input[name="price2"]').val())))
+        parseFloat($('input[name="total3"]').val(parseFloat($('input[name="qty3"]').val()) * parseFloat($('input[name="price3"]').val())))
+        parseFloat($('input[name="total4"]').val(parseFloat($('input[name="qty4"]').val()) * parseFloat($('input[name="price4"]').val())))
+        parseFloat($('input[name="total5"]').val(parseFloat($('input[name="qty5"]').val()) * parseFloat($('input[name="price5"]').val())))
+        parseFloat($('input[name="total6"]').val(parseFloat($('input[name="qty6"]').val()) * parseFloat($('input[name="price6"]').val())))
+        parseFloat($('input[name="total7"]').val(parseFloat($('input[name="qty7"]').val()) * parseFloat($('input[name="price7"]').val())))
+        parseFloat($('input[name="total8"]').val(parseFloat($('input[name="qty8"]').val()) * parseFloat($('input[name="price8"]').val())))
+        parseFloat($('input[name="total9"]').val(parseFloat($('input[name="qty9"]').val()) * parseFloat($('input[name="price9"]').val())))
+        parseFloat($('input[name="total10"]').val(parseFloat($('input[name="qty10"]').val()) * parseFloat($('input[name="price10"]').val())))
+
+        
+    
+    }
+    
+   
+
+    $('input[type=radio][name=drone]').change(function () {
+        if (this.value == 'yes') {
+            // let total = calcTotal() + (calcTotal() * (5.3/100));
+            // $('input[name="total"]').val(total);
+            dr = (5.3/100);
+        }
+        else if (this.value == 'no') {
+            // let total = calcTotal();
+            // $('input[name="total"]').val(total);
+            dr = 0;
+        }
+     
+    });
+
+    $(".getTotal").click(function (e) {
+        e.preventDefault();
+        calcRowTotal();
+        if(dr == 0 ){
+            $('input[name="total"]').val(calcTotal()); ;
+        }else{
+            dr = calcTotal() + (calcTotal() * dr)
+            $('input[name="total"]').val(dr); ;
+        }
+        
+
+    });
+
+    $('#orderForm').on('submit', function (event) {
+
+        event.preventDefault(); // prevent reload
+
+        var formData = new FormData(this);
+        console.log(formData);
+        
+        Email.send({
+            Host : "smtp.elasticemail.com",
+            Username : "username",
+            Password : "password",
+            To : 'them@website.com',
+            From : "you@isp.com",
+            Subject : "This is the subject",
+            Body : "And this is the body"
+        }).then(
+          message => alert(message)
+        );
+
+
+    })
+
+    
 
 })(jQuery);
 
