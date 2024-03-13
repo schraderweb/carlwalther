@@ -2414,8 +2414,19 @@ input , textarea, select{
     display: flex;
     gap: 10px;
 }
-
+.mobile-slide {
+    display: none !important;
+}
+.desktop-slide {
+    display: block !important;
+}
 @media (max-width: 768px) {
+    .mobile-slide {
+        display: block !important;
+    }
+    .desktop-slide {
+        display: none !important;
+    }
     .footer .copyright p,
     .footer .copyright .col-md-6:last-child p {
         margin: 5px 0;
