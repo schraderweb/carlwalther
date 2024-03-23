@@ -79,17 +79,21 @@
         console.log("ok");
         $('.popup1').toggle()
         // $('.service-item a.btn').trigger( "click" );
+        // $('.popup').scrollIntoView(true);
+        window.scrollTo(0, 0);
     })
     $('.popup-btn2').click((e) => {
         e.preventDefault();
         console.log("ok");
-        $('.popup2').toggle()
+        $('.popup2').toggle();
+        window.scrollTo(0, 0);
         // $('.service-item a.btn').trigger( "click" );
     })
     $('.popup-btn3').click((e) => {
         e.preventDefault();
         console.log("ok");
-        $('.popup3').toggle()
+        $('.popup3').toggle();
+        window.scrollTo(0, 0);
         // $('.service-item a.btn').trigger( "click" );
     })
     $('.close').click((e) => {
@@ -102,7 +106,8 @@
     $('.popup-btn4').click((e) => {
         e.preventDefault();
         console.log("ok");
-        $('.popup4').toggle()
+        $('.popup4').toggle();
+        window.scrollTo(0, 0);
         // $('.service-item a.btn').trigger( "click" );
     })
 
@@ -110,14 +115,16 @@
     $('.popup-btn5').click((e) => {
         e.preventDefault();
         console.log("ok");
-        $('.popup5').toggle()
+        $('.popup5').toggle();
+        window.scrollTo(0, 0);
         // $('.service-item a.btn').trigger( "click" );
     })
 
     $('.popup-btn6').click((e) => {
         e.preventDefault();
         console.log("ok");
-        $('.popup6').toggle()
+        $('.popup6').toggle();
+        window.scrollTo(0, 0);
         // $('.service-item a.btn').trigger( "click" );
     })
 
@@ -125,7 +132,8 @@
     $('.popup-btn7').click((e) => {
         e.preventDefault();
         console.log("ok");
-        $('.popup7').toggle()
+        $('.popup7').toggle();
+        window.scrollTo(0, 0);
         // $('.service-item a.btn').trigger( "click" );
     })
 
@@ -133,7 +141,8 @@
     $('.popup-btn8').click((e) => {
         e.preventDefault();
         console.log("ok");
-        $('.popup8').toggle()
+        $('.popup8').toggle();
+        window.scrollTo(0, 0);
         // $('.service-item a.btn').trigger( "click" );
     })
 
@@ -141,7 +150,8 @@
     $('.popup-btn9').click((e) => {
         e.preventDefault();
         console.log("ok");
-        $('.popup9').toggle()
+        $('.popup9').toggle();
+        window.scrollTo(0, 0);
         // $('.service-item a.btn').trigger( "click" );
     })
 
