@@ -35,6 +35,8 @@ body {
 }
 .section-header  a {  
     text-decoration: underline !important;
+    color: #a47d5c !important;
+
 }
 .text-main {
     color: #324f61;
