@@ -22,7 +22,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/img/");
   eleventyConfig.addPassthroughCopy("src/js/");
   eleventyConfig.addPassthroughCopy("src/lib/");
-
+  eleventyConfig.addPassthroughCopy("src/pdfs/");
 
   eleventyConfig.addWatchTarget("src/css/");
   eleventyConfig.addWatchTarget("src/style.css");
