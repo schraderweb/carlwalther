@@ -318,7 +318,7 @@ a:focus {
     }
     
     .nav-bar .btn {
-        display: none;
+        /* display: none; */
     }
 }
 
