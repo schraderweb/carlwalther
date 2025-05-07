@@ -234,8 +234,14 @@
                 </div>
             </div>
             <!-- About End -->
-
-            <a href="/categories/walther-specials" class="btn" style="
+            <style>
+                @keyframes blink{
+                0%{opacity: 0;}
+                50%{opacity: .5;}
+                100%{opacity: 1;}
+                }
+            </style>
+            <a href="/categories/walther-specials" class="btn walther-specials-bar" style="
            
             animation: changeColor 100s infinite alternate;
             color: #fdbf33;
@@ -252,9 +258,16 @@
             align-items: center;
             width: auto;
             font-size: 20px;
-            padding: 10px;">
+            padding: 10px;
+            
+            
+            "
+            
+            >
             <img src="img/specials.png" width="40px" alt="">
-            click to view Walther specials</a>
+            <span style="animation: blink 2s linear infinite;">click to view Walther specials</span>
+            <img src="/img/arrow-orange.gif" width="40" alt="">
+            </a>
 
             <!-- Service Start -->
             <div class="service">
