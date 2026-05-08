@@ -2484,3 +2484,19 @@ input , textarea, select{
 .order-form {
     background-color: #fff;
 }
+
+
+#modalNewsletter{
+    display: none !important;
+    visibility: hidden !important;
+
+}
+.modal-backdrop{
+    display: none !important;
+    visibility: hidden !important;
+}
+
+.frontend .navbar{
+   display: none !important;
+    visibility: hidden !important;
+}
