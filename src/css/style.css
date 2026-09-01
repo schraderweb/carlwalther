@@ -2426,8 +2426,20 @@ input , textarea, select{
 .desktop-slide {
     display: block !important;
 }
-
+    #desktop{
+    display: block; /* Changes from none to block on smaller viewports */
+  }
+  #mobile{
+    display: none; /* Changes from none to block on smaller viewports */
+  }
 @media (max-width: 768px) {
+     #desktop{
+    display: none; /* Changes from none to block on smaller viewports */
+  }
+  #mobile{
+    display: block; /* Changes from none to block on smaller viewports */
+  }
+
     .mobile-slide {
         display: block !important;
     }
@@ -2500,3 +2512,5 @@ input , textarea, select{
    display: none !important;
     visibility: hidden !important;
 }
+
+
